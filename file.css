@@ -1,0 +1,98 @@
+.sub-navigation-column a:hover {
+    text-decoration: underline;
+}
+.sub-navigation-column ul > li {
+    margin-top: 15px;
+    margin-bottom: 15px;
+        line-height: 1.25;
+}
+.sub-navigation-column a {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    color: #e1e1e1;
+    white-space: nowrap;
+}
+.sub-navigation-column {
+    float: left;
+    padding-left: 10%;
+}
+.sub-nav-up-text:before {
+    content: "SHOW ";
+}
+
+
+
+        .sub-nav-container
+        {
+            float:right;
+            clear:both;
+            width:100%;
+        }
+
+        .toggle-sub-nav-button
+        {
+            float:right;                     
+            display:inline-block;
+            margin:0;
+            margin-bottom:0px;
+            min-height:30px;
+            line-height:30px;
+            text-align:center;            
+            padding:0 12px;
+            font-weight:700;
+            font-size:12px;
+            background-color:#d0112b;
+            color:#e1e1e1;
+            border-top-left-radius:5px;
+            border-top-right-radius:5px;            
+        }
+
+        .toggle-sub-nav-button:hover {
+            cursor:pointer;
+        }
+
+        .sub-nav-content {                 
+            float:right;
+            clear:both;       
+            font-size: 12px;
+            background-color:#d0112b;
+            color: #e1e1e1;
+            border-radius: 5px 0px 5px 5px;            
+            width:100%;
+            margin-bottom:32px;
+        }
+
+        .sub-nav-down
+        {
+            transition:border-radius 0.3s ease;
+            border-radius:5px 5px 0px 0px;
+            margin-bottom:0px;
+        }
+
+        .sub-nav-up
+        {
+            transition:border-radius 0.7s ease-in;
+            border-radius:5px 5px 5px 5px;
+
+            transition:margin-bottom 0.3s ease-in;
+            margin-bottom:32px;
+        }
+
+        .sub-nav-down-text:before
+        {
+            content:"HIDE ";
+        }
+        .sub-nav-down-text:after
+        {
+            content:"\25B2";
+        }        
+
+        .sub-nav-up-text:before
+        {
+            content:"SHOW ";
+        }
+        .sub-nav-up-text:after
+        {
+            content:"\25BC";
+        }
